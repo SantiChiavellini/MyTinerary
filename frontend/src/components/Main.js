@@ -8,7 +8,7 @@ class Main extends React.Component {
       <>
         <div id="contenedorMain" className="blue-grey lighten-4 s12 center">
           <div
-            className="z-depth-3 offset-l2 s12 l10"
+            className="z-depth-3 s10 m8 responsive"
             id="contenedorLogo"
           ></div>
           <i className="large material-icons deep-orange-text">forward</i>

@@ -7,9 +7,11 @@ import Main from '../components/Main'
 class Home extends React.Component {
     render() {
         return <>
-        <Header/>
-        <Main/>
-        <Footer/>
+        <div className='s12'>
+            <Header/>
+            <Main/>
+            <Footer/>
+        </div>
         </>
     }
 }
