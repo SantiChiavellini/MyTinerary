@@ -6,3 +6,11 @@
 .hide-on-med-and-down {
     padding-right: 1vw;
 }
+
+.large.material-icons.left{
+    font-size: 7vh;
+}
+
+#navbar {
+    background-color: #ff5622c0!important;
+}

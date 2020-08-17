@@ -6,11 +6,11 @@ class Main extends React.Component {
   render() {
     return (
       <>
-        <div id="contenedorMain" className="blue-grey lighten-4 s12 center">
+        <div id="contenedorMain" className="white s12 center">
           <div
             className="z-depth-3 s10 m8 responsive"
-            id="contenedorLogo"
-          ></div>
+            id="contenedorLogo">
+          </div>
           <i className="large material-icons deep-orange-text">forward</i>
           <h3
             style={{
@@ -19,7 +19,7 @@ class Main extends React.Component {
               textShadow: "2px 2px 2px black",
             }}
           >
-            Feeling Adventorous?
+            Feeling Adventurous?
           </h3>
           <div id="contenedorDoble">
             <div id="imagenTrip">
@@ -28,8 +28,9 @@ class Main extends React.Component {
                   fontSize: "4vh",
                   fontWeight: "bold",
                   color: "whitesmoke",
-                  backgroundColor: "#32a089",
+                  backgroundColor: "#32a08859",
                   textShadow: "2px 2px 2px black",
+                  padding: '1vh 0vw',
                 }}
               >
                 Find your perfect trip, designed by insiders who know and love
@@ -43,8 +44,9 @@ class Main extends React.Component {
                   fontSize: "4vh",
                   fontWeight: "bold",
                   color: "whitesmoke",
-                  backgroundColor: "#32a089",
+                  backgroundColor: "#32a08859",
                   textShadow: "2px 2px 2px black",
+                  padding: '1vh 0vw',
                 }}
               >
                 Some of most chosen trips:

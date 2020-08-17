@@ -26,7 +26,7 @@ function Carousel() {
                     backgroundSize: 'cover',
                   }}
                 >
-                  <p className="deep-orange white-text center" style={{fontSize:'3vh', textShadow:'2px 2px 2px black'}}>{Ciudad}</p>
+                  <p className="white-text center" style={{fontSize:'3vh', textShadow:'2px 2px 2px black', backgroundColor: "#32a08859",}}>{Ciudad}</p>
                 </div>
               );
             })}
@@ -47,7 +47,7 @@ function Carousel() {
                     backgroundSize: 'cover',
                   }}
                 >
-                  <p className="deep-orange white-text center" style={{fontSize:'3vh', textShadow:'2px 2px 2px black'}}>{Ciudad}</p>
+                  <p className="white-text center" style={{fontSize:'3vh', textShadow:'2px 2px 2px black', backgroundColor: "#32a08859",}}>{Ciudad}</p>
                 </div>
               );
             })}
@@ -64,12 +64,12 @@ function Carousel() {
                   id="contenedorImg"
                   style={{
                     backgroundImage: `url(${fotoCiudad})`,
-                    backgroundPosition: "top center",
+                    backgroundPosition: "center",
                     backgroundSize: 'cover',
                   }}
                 >
-                  <p className="deep-orange white-text center" style={{fontSize:'3vh',
-                textShadow:'2px 2px 2px black'}}>{Ciudad}</p>
+                  <p className="white-text center" style={{fontSize:'3vh',
+                textShadow:'2px 2px 2px black', backgroundColor: "#32a08859",}}>{Ciudad}</p>
                 </div>
               );
             })}
