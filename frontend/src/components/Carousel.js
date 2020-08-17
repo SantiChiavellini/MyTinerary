@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/Carousel.css";
 
 function Carousel() {
-  let WorldCities = ["Barcelona", "NuevaYork", "Paris", "Estambul"];
+  let WorldCities = ["Barcelona", "NewYork", "Paris", "Estambul"];
   let WorldCities2 = ["BuenosAires", "Roma", "Giza", "Florencia"];
   let WorldCities3 = ["Shanghái", "Madrid", "Budapest", "Sidney"];
 
@@ -26,7 +26,7 @@ function Carousel() {
                     backgroundSize: 'cover',
                   }}
                 >
-                  <p className="deep-orange white-text center" style={{fontSize:'3vh'}}>{Ciudad}</p>
+                  <p className="deep-orange white-text center" style={{fontSize:'3vh', textShadow:'2px 2px 2px black'}}>{Ciudad}</p>
                 </div>
               );
             })}
@@ -47,7 +47,7 @@ function Carousel() {
                     backgroundSize: 'cover',
                   }}
                 >
-                  <p className="deep-orange white-text center" style={{fontSize:'3vh'}}>{Ciudad}</p>
+                  <p className="deep-orange white-text center" style={{fontSize:'3vh', textShadow:'2px 2px 2px black'}}>{Ciudad}</p>
                 </div>
               );
             })}
@@ -68,7 +68,8 @@ function Carousel() {
                     backgroundSize: 'cover',
                   }}
                 >
-                  <p className="deep-orange white-text center" style={{fontSize:'3vh'}}>{Ciudad}</p>
+                  <p className="deep-orange white-text center" style={{fontSize:'3vh',
+                textShadow:'2px 2px 2px black'}}>{Ciudad}</p>
                 </div>
               );
             })}
