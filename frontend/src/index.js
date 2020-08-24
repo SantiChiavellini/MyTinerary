@@ -5,8 +5,12 @@ import * as serviceWorker from './serviceWorker';
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css';
 
+
+
 document.addEventListener('DOMContentLoaded', function() {
-  M.AutoInit();
+  M.AutoInit(
+    
+  );
 });
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -17,8 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
     fullWidth: true,
   });
 });
-
-
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,0 +1,11 @@
+
+
+#imgContainer{
+    margin: 2vh 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    border: 1vh solid #ff562279;
+    border-radius: 30px;
+}

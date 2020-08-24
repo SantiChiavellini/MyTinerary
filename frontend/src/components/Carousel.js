@@ -14,7 +14,7 @@ function Carousel() {
         <div className="carousel-item s12">
           <div className="contenedorImg s12">
             {WorldCities.map((Ciudad) => {
-              const fotoCiudad = require(`./img/WorldCities/${Ciudad}.jpg`);
+              const fotoCiudad = require(`../img/WorldCities/${Ciudad}.jpg`);
               return (
                 <div
                   className='z-depth-3 col s12 m6'
@@ -23,7 +23,7 @@ function Carousel() {
                   style={{
                     backgroundImage: `url(${fotoCiudad})`,
                     backgroundPosition: "center",
-                    backgroundSize: 'cover',
+                    backgroundSize: 'cover'
                   }}
                 >
                   <p className="white-text center" style={{fontSize:'3vh', textShadow:'2px 2px 2px black', backgroundColor: "#32a08859",}}>{Ciudad}</p>
@@ -35,7 +35,7 @@ function Carousel() {
         <div className="carousel-item s12">
           <div className="contenedorImg s12">
             {WorldCities2.map((Ciudad) => {
-              const fotoCiudad = require(`./img/WorldCities/${Ciudad}.jpg`);
+              const fotoCiudad = require(`../img/WorldCities/${Ciudad}.jpg`);
               return (
                 <div
                   className='z-depth-3 col s12 m6'
@@ -56,7 +56,7 @@ function Carousel() {
         <div className="carousel-item s12">
           <div className="contenedorImg s12">
             {WorldCities3.map((Ciudad) => {
-              const fotoCiudad = require(`./img/WorldCities/${Ciudad}.jpg`);
+              const fotoCiudad = require(`../img/WorldCities/${Ciudad}.jpg`);
               return (
                 <div
                   className='z-depth-3 col s12 m6'

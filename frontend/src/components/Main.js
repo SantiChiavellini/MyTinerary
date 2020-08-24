@@ -1,8 +1,11 @@
 import React from "react";
 import Carousel from "../components/Carousel";
 import "./styles/Main.css";
+import { NavLink } from "react-router-dom";
+
 
 class Main extends React.Component {
+
   render() {
     return (
       <>
@@ -10,8 +13,17 @@ class Main extends React.Component {
           <div
             className="z-depth-3 s10 m8 responsive"
             id="contenedorLogo">
+              <NavLink to='/Home'></NavLink>
           </div>
-          <i className="large material-icons deep-orange-text">forward</i>
+          <div id="contenedorFlecha">
+            <NavLink to='/Cities'><i className="large material-icons deep-orange-text">forward</i></NavLink>
+            <p style={{
+              color: "#32a089",
+              fontWeight: "bold",
+              textShadow: "2px 2px 2px black",
+              fontSize: "4vh",
+            }}>Go to Cities</p>
+          </div>
           <h3
             style={{
               color: "#32a089",

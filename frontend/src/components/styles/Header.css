@@ -14,3 +14,9 @@
 #navbar {
     background-color: #ff5622c0!important;
 }
+
+
+#navbar a.active{
+    background-color: #32a088dc;
+    font-size: bold!important;
+}

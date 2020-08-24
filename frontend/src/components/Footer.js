@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/Footer.css";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
@@ -18,7 +19,7 @@ function Footer() {
               <ul>
                 <li>
                   <div className="grey-text text-lighten-3">
-                    Link 1
+                    <NavLink to='/Home'>Home</NavLink>
                   </div>
                 </li>
               </ul>

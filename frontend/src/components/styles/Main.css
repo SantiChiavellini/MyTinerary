@@ -11,7 +11,7 @@
 
 @media screen and (max-width:1920px) {
     #contenedorLogo {
-        background-image: url(../img/logo.png);
+        background-image: url(../../img/logo.png);
         width: 60%;
         height: 45vh;
         background-position: center center;
@@ -28,7 +28,7 @@
 
 @media screen and (max-width:500px) {
     #contenedorLogo {
-        background-image: url(../img/logo.png);
+        background-image: url(../../img/logo.png);
         width: 90%;
         height: 35vh;
         background-position: center center;
@@ -46,7 +46,7 @@
 
 
 #imagenTrip {
-    background-image: url(../img/vietnamBlog.jpg);
+    background-image: url(../../img/vietnamBlog.jpg);
     opacity: 90%;
     min-height: 80vh;
     width: 100%;
@@ -71,7 +71,7 @@
 }
  */
 #imagenDestinos {
-    background-image: url(../img/happyPeople.jpg);
+    background-image: url(../../img/happyPeople.jpg);
     opacity: 90%;
     background-position: center center;
     background-size: cover;
@@ -85,4 +85,9 @@
     flex-wrap: wrap;
     border: 1vh solid #ff5622d5;
     border-radius: 30px;
+}
+
+#contenedorFlecha {
+    display:flex;
+    flex-direction: column;
 }
