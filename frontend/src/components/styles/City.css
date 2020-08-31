@@ -1,11 +1,32 @@
-
-
 #imgContainer{
     margin: 2vh 2vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     flex-wrap: wrap;
-    border: 1vh solid #ff562279;
+    border: 0.2vh solid #ff5622ef;
     border-radius: 30px;
+    transition: width 2s, height 2s, margin 2s;
+    
+    
+/*     background-size: "cover";
+    background-position: "center";
+    height: "40vh";
+    width: "45vw";
+    background-size: "cover";
+    background-position: "center", */
 }
+
+#imgContainer:hover{
+    transform: scale(1.05);
+    box-shadow: 0vw 1.1vw 1.1vw rgb(0, 0, 0, 0.5)!important;
+}
+
+/* #textContainer {
+    font-size: "4vh";
+    font-weight: "bold";
+    color: "whitesmoke";
+    background-color: "#32a08859";
+    text-shadow: "2px 2px 2px black";
+    padding: "1vh 0vw";
+} */

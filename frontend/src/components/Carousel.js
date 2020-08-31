@@ -13,7 +13,7 @@ function Carousel() {
       <div className="carousel carousel-slider s12">
         <div className="carousel-item s12">
           <div className="contenedorImg s12">
-            {WorldCities.map((Ciudad) => {
+            {WorldCities.map(Ciudad => {
               const fotoCiudad = require(`../img/WorldCities/${Ciudad}.jpg`);
               return (
                 <div

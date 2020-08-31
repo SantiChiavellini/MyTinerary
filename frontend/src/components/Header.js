@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/Header.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -15,28 +15,28 @@ function Header() {
           </div>
           <ul id="dropdown1" className="dropdown-content">
             <li>
-              <a to>Log In</a>
+              <Link>Log In</Link>
             </li>
             <li>
-              <a href>Register</a>
+              <Link>Register</Link>
             </li>
             <li className="divider" tabIndex="-1"></li>
           </ul>
-            <a href
+            <Link
             data-target="mobile-demo"
             className="sidenav-trigger right"
           >
             <i className="material-icons">menu</i>
-          </a>
+          </Link>
           <ul className="right hide-on-med-and-down">
             <li>
               <NavLink to="/Home">Home</NavLink>
             </li>
             <li>
-              <a href>To confirm</a>
+              <Link>To confirm</Link>
             </li>
             <li>
-              <a href>To Confirm</a>
+              <Link>To Confirm</Link>
             </li>
           </ul>
         </nav>
@@ -44,13 +44,13 @@ function Header() {
 
       <ul className="sidenav deep-orange" id="mobile-demo">
         <li>
-          <a href>To Confirm</a>
+          <Link>To Confirm</Link>
         </li>
         <li>
-          <a href>To Confirm</a>
+          <Link>To Confirm</Link>
         </li>
         <li>
-          <a href>To Confirm</a>
+          <Link>To Confirm</Link>
         </li>
       </ul>
     </>

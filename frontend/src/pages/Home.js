@@ -1,20 +1,18 @@
-import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import Main from '../components/Main'
-
+import React from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Main from "../components/Main";
 
 class Home extends React.Component {
-    render() {
-        return <>
-        <div className='s12'>
-            <Header/>
-            <Main/>
-            <Footer/>
-        </div>
-        </>
-    }
+  render() {
+    return (
+      <>
+        <Header />
+        <Main />
+        <Footer />
+      </>
+    );
+  }
 }
 
-
-export default Home
+export default Home;

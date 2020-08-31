@@ -18,9 +18,10 @@ function Footer() {
               <h5 className="white-text">Social Media.</h5>
               <ul>
                 <li>
-                  <div className="grey-text text-lighten-3">
                     <NavLink to='/Home'>Home</NavLink>
-                  </div>
+                </li>
+                <li>
+                    <NavLink to='/Cities'>Cities</NavLink>
                 </li>
               </ul>
             </div>

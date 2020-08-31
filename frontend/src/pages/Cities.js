@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import City from "../components/City";
 import "../components/styles/Cities.css";
+import {NavLink} from 'react-router-dom'
 
 class Cities extends React.Component {
   state = {
@@ -17,14 +18,14 @@ class Cities extends React.Component {
       cities: info.cities,
       filteredCities: info.cities,
     });
-  }
+  };
 
   capturarValue = (e) => {
     const valorAlmacenado = e.target.value.trim().toLowerCase();
     this.setState({
       filteredCities: this.state.cities.filter(
         (city) => city.city.toLowerCase().indexOf(valorAlmacenado) === 0
-      ),
+      )
     });
   };
 
@@ -47,31 +48,29 @@ class Cities extends React.Component {
                 backgroundColor: "#32a08859",
                 textShadow: "2px 2px 2px black",
                 padding: "1vh 0vw",
-                textAlign:'center'
+                textAlign:'center',
               }}
             >
-              City not found ):
+              City not found.. Try Again!
             </p>
           </div>
-        );
-      }
+        )};
     };
 
     return (
       <>
         <Header/>
         <div id="mainCities">
-          <input
-            type="text"
-            placeholder="What city are you interested in?"
-            name="city"
-            id="city"
-            onChange={this.capturarValue}
-          />
+          <input type="text" placeholder="What city are you interested in?" name="city" id="city"
+            onChange={this.capturarValue}/>
           <ul className="Container">
             {filteredSameZero()}
             {this.state.filteredCities.map((city) => {
-              return <City city={city} />;
+              return<>              
+                <NavLink to={`/Itineraries/${city._id}`}>
+                  <City city={city} />
+                </NavLink>
+              </>
             })}
           </ul>
         </div>

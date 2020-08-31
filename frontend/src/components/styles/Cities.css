@@ -19,7 +19,23 @@
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
+    box-shadow: 7px 7px 7px #252322;
 }
+
+#mainCities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city{
+    width: 30vw;
+    border: 0.1px solid rgba(0, 0, 0, 0.466);
+    border-radius: 20px;
+    margin-top: 2vh;
+    padding: 0.1vh 0.3vw;
+}
+
 
 @media (max-width:800px) {
     #notFoundText{
